@@ -1,0 +1,4 @@
+Section "Files"
+        FontPath "/usr/local/share/fonts/urwfonts/"
+        FontPath "/usr/local/share/fonts/TrueType/"
+EndSection

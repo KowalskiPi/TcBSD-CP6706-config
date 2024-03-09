@@ -1,0 +1,8 @@
+CP6706-0001-0050
+Display size/resolution	7" 800 x 480
+Touch screen		single-finger touch screen
+Processor		Intel Atom® E3827, 1.75 GHz, 2 core
+Memory			8GB DDR3L RAm
+Hard disks/flash	40 GB CFast
+Interfaces		4 x USB 2.0, 1 x DVI
+Power supply		24 V DC

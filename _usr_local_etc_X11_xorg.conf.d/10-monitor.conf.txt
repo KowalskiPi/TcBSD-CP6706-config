@@ -1,0 +1,14 @@
+Section "Monitor"
+        Identifier      "HDMI-2"
+        VendorName      "ELOTouch"
+        ModelName       "Monitor0Model"
+        Option          "DPMS" "false"
+EndSection
+Section "Screen"
+        Identifier      "Screen0"
+        Device          "Card0"
+        Monitor         "HDMI-2"
+        SubSection      "Display"
+        Modes           "800x480"
+        EndSubSection
+EndSection

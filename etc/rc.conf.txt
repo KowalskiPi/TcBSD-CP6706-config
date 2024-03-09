@@ -1,0 +1,41 @@
+#fonts_setting----------
+allscreens_flags="-f vgarom-thin-8x16"
+#####################
+zfs_enable="YES"
+dumpdev="AUTO"
+CXID_enable="YES"
+MDPService_enable="YES"
+ntpd_enable="YES"
+pf_enable="YES"
+TcSystemService_enable="YES"
+runonce_enable="YES"
+sendmail_enable="NO"
+sendmail_submit_enable="NO"
+sendmail_outbound_enable="NO"
+sendmail_msp_queue_enable="NO"
+dhcpcd_enable="YES"
+#ifconfig_igb0="inet 192.168.137.137 netmask 255.255.255.0"
+#defaultrouter="192.168.137.1"
+#ifconfig_igb1="dhcp"
+#dhcpcd_flags="--waitip --denyinterfaces igb0"
+dhcpcd_flags="--waitip"
+allscreens_kbdflags="-b quiet.off"
+syslogd_flags="-ss"
+devfs_system_ruleset="allow_usb_mount"
+hostname="CP-5B3CCE"
+
+#DAEMONS----------------------------
+zfs_enable="YES"
+#moused_enable="YES"
+webcamd_enable="YES"
+dbus_enable="YES"
+kld_list="i915kms"
+#gdm_enable="YES"
+lightdm_enable="yes"
+
+#RemoteDesktop----------------------
+sshd_enable="yes"
+xrdp_enable="yes"
+xrdp_sessman_enable="yes"
+
+#gateway_enable="true"

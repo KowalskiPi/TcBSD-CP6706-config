@@ -1,0 +1,6 @@
+Section "InputClass"
+        Identifier      "touchScreen"
+        MatchIsTouchscreen      "on"
+        Driver  "libinput"
+        Option  "Device" "/dev/input/event3"
+EndSection

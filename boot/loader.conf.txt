@@ -1,0 +1,12 @@
+kern.geom.label.disk_ident.enable="0"
+kern.geom.label.gptid.enable="0"
+cryptodev_load="YES"
+zfs_load="YES"
+hint.attimer.0.clock="0"
+cuse_load="YES"
+hw.psm.synaptics_support=1
+usbhid_load="yes"
+hw.usb.usbhid.enable=1
+kldload i915kms
+hw.vga.textmode=1
+fdescfs_load="yes"
