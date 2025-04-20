@@ -39,3 +39,6 @@ xrdp_enable="yes"
 xrdp_sessman_enable="yes"
 
 #gateway_enable="true"
+
+#TcHmi------------------------------
+TcHmiSrv_enable="YES"
